@@ -1,0 +1,188 @@
+<html>
+<head>
+<title>TestNG:  Regression Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Regression Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>7/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Dec 13 21:17:18 GMT 2022</td>
+</tr>
+<tr><td>Total time:</td><td>81 seconds (81184 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>regression </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.nopcommece.testsuite.HomePageTest.verifyPageNavigation()'><b>verifyPageNavigation</b><br>Test class: com.nopcommece.testsuite.HomePageTest</td>
+<td></td>
+<td>1</td>
+<td>com.nopcommece.testsuite.HomePageTest@4516af24</td></tr>
+<tr>
+<td title='com.nopcommece.testsuite.ComputerPageTest.verifyProductArrangeInAlphaBaticalOrder()'><b>verifyProductArrangeInAlphaBaticalOrder</b><br>Test class: com.nopcommece.testsuite.ComputerPageTest<br/>
+<a href="#Output-821342630" onClick='toggleBox("Output-821342630", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-821342630" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-821342630">
+Clicking on computer Computers then desktop <br/>
+Sorting computer desktops Position
+Name: A to Z
+Name: Z to A
+Price: Low to High
+Price: High to Low
+Created on<br/>
+Verifying list after sorting [[[ChromeDriver: chrome on WINDOWS (dfd018e41a6b7176a755ff244a592273)] -> xpath: //h2[@class='product-title']], [[ChromeDriver: chrome on WINDOWS (dfd018e41a6b7176a755ff244a592273)] -> xpath: //h2[@class='product-title']], [[ChromeDriver: chrome on WINDOWS (dfd018e41a6b7176a755ff244a592273)] -> xpath: //h2[@class='product-title']]]<br/>
+Verifying list before sorting [[[ChromeDriver: chrome on WINDOWS (dfd018e41a6b7176a755ff244a592273)] -> xpath: //h2[@class='product-title']], [[ChromeDriver: chrome on WINDOWS (dfd018e41a6b7176a755ff244a592273)] -> xpath: //h2[@class='product-title']], [[ChromeDriver: chrome on WINDOWS (dfd018e41a6b7176a755ff244a592273)] -> xpath: //h2[@class='product-title']]]<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.nopcommece.testsuite.ComputerPageTest@67b467e9</td></tr>
+<tr>
+<td title='com.nopcommece.testsuite.LoginPageTest.verifyErrorMessageWithInvalidCredentials()'><b>verifyErrorMessageWithInvalidCredentials</b><br>Test class: com.nopcommece.testsuite.LoginPageTest<br/>
+<a href="#Output-266894813" onClick='toggleBox("Output-266894813", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-266894813" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-266894813">
+click on login tabLog in<br/>
+enter email idprime123@gmail.com<br/>
+enter password prime123<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.nopcommece.testsuite.LoginPageTest@6d3af739</td></tr>
+<tr>
+<td title='com.nopcommece.testsuite.ElectronicsPageTest.verifyUserShouldNavigateToCellPhonesPageSuccessfully()'><b>verifyUserShouldNavigateToCellPhonesPageSuccessfully</b><br>Test class: com.nopcommece.testsuite.ElectronicsPageTest<br/>
+<a href="#Output-829053325" onClick='toggleBox("Output-829053325", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-829053325" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-829053325">
+Get phone text[[ChromeDriver: chrome on WINDOWS (7a81d847724cfa7eab2e4a5b91bb7464)] -> xpath: //h1[contains(text(),'Cell phones')]]<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.nopcommece.testsuite.ElectronicsPageTest@587c290d</td></tr>
+<tr>
+<td title='com.nopcommece.testsuite.LoginPageTest.verifyUserShouldNavigateToLoginPage()'><b>verifyUserShouldNavigateToLoginPage</b><br>Test class: com.nopcommece.testsuite.LoginPageTest<br/>
+<a href="#Output-1430104337" onClick='toggleBox("Output-1430104337", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1430104337" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1430104337">
+click on login tabLog in<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.nopcommece.testsuite.LoginPageTest@6d3af739</td></tr>
+<tr>
+<td title='com.nopcommece.testsuite.ShoppingCartPageTest.verifyProductAddedToShoppingCartSuccessFully()'><b>verifyProductAddedToShoppingCartSuccessFully</b><br>Test class: com.nopcommece.testsuite.ShoppingCartPageTest<br/>
+<a href="#Output-354154358" onClick='toggleBox("Output-354154358", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-354154358" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-354154358">
+click on computer Computers<br/>
+click on computer Desktops<br/>
+sort computerdesktops to AtoZPosition
+Name: A to Z
+Name: Z to A
+Price: Low to High
+Price: High to Low
+Created on<br/>
+click on shopping cartADD TO CART<br/>
+</div>
+</td>
+<td></td>
+<td>20</td>
+<td>com.nopcommece.testsuite.ShoppingCartPageTest@4ae82894</td></tr>
+<tr>
+<td title='com.nopcommece.testsuite.ElectronicsPageTest.TheProductAddedSuccessfullyAndPlaceOrderSuccessfully()'><b>TheProductAddedSuccessfullyAndPlaceOrderSuccessfully</b><br>Test class: com.nopcommece.testsuite.ElectronicsPageTest<br/>
+<a href="#Output-1482344533" onClick='toggleBox("Output-1482344533", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1482344533" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1482344533">
+Get phone text[[ChromeDriver: chrome on WINDOWS (e8570e0caa7ee1f99499e88d687dd642)] -> xpath: //h1[contains(text(),'Cell phones')]]<br/>
+Click on list [[ChromeDriver: chrome on WINDOWS (e8570e0caa7ee1f99499e88d687dd642)] -> xpath: //a[contains(text(),'List')]]<br/>
+click on nokia lumia [[ChromeDriver: chrome on WINDOWS (e8570e0caa7ee1f99499e88d687dd642)] -> xpath: //h2/a[contains(text(),'Nokia Lumia 1020')]]<br/>
+get nokia text<br/>
+get price for nokia <br/>
+add to the cart<br/>
+ Get add to cart msg[[ChromeDriver: chrome on WINDOWS (e8570e0caa7ee1f99499e88d687dd642)] -> xpath: //body/div[@id='bar-notification']/div[1]/p[1]]<br/>
+shopping cart message Shopping cart<br/>
+Update Qty msg[[ChromeDriver: chrome on WINDOWS (e8570e0caa7ee1f99499e88d687dd642)] -> xpath: //span[contains(text(),'(2)')]]<br/>
+verified total$698.00<br/>
+Click on checkbox[[ChromeDriver: chrome on WINDOWS (e8570e0caa7ee1f99499e88d687dd642)] -> xpath: //input[@id='termsofservice']]<br/>
+Click Checkoutbox By.xpath: //button[@id='checkout']<br/>
+verify welcome textWelcome, Please Sign In!<br/>
+Click on Register [[ChromeDriver: chrome on WINDOWS (e8570e0caa7ee1f99499e88d687dd642)] -> xpath: //button[contains(text(),'Register')]]<br/>
+verify Register textRegister<br/>
+</div>
+</td>
+<td></td>
+<td>22</td>
+<td>com.nopcommece.testsuite.ElectronicsPageTest@587c290d</td></tr>
+</table><p>
+</body>
+</html>

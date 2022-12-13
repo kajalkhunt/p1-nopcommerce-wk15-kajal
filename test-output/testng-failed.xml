@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression suite]">
+  <listeners>
+    <listener class-name="com.nopcommece.customlisteners.CustomListeners"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test thread-count="5" name="Regression Test(failed)">
+    <groups>
+      <run>
+        <include name="regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.nopcommece.testsuite.ShoppingCartPageTest">
+        <methods>
+          <include name="verifyProductAddedToShoppingCartSuccessFully"/>
+          <include name="inIT"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.nopcommece.testsuite.ShoppingCartPageTest -->
+      <class name="com.nopcommece.testsuite.ComputerPageTest">
+        <methods>
+          <include name="verifyProductArrangeInAlphaBaticalOrder"/>
+          <include name="inIT"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.nopcommece.testsuite.ComputerPageTest -->
+    </classes>
+  </test> <!-- Regression Test(failed) -->
+</suite> <!-- Failed suite [Regression suite] -->

@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+    <line>
+      <![CDATA[Clicking on computer Computers then desktop ]]>
+    </line>
+    <line>
+      <![CDATA[Sorting computer desktops Position
+Name: A to Z
+Name: Z to A
+Price: Low to High
+Price: High to Low
+Created on]]>
+    </line>
+    <line>
+      <![CDATA[Verifying list after sorting [[[ChromeDriver: chrome on WINDOWS (dfd018e41a6b7176a755ff244a592273)] -> xpath: //h2[@class='product-title']], [[ChromeDriver: chrome on WINDOWS (dfd018e41a6b7176a755ff244a592273)] -> xpath: //h2[@class='product-title']], [[ChromeDriver: chrome on WINDOWS (dfd018e41a6b7176a755ff244a592273)] -> xpath: //h2[@class='product-title']]]]]>
+    </line>
+    <line>
+      <![CDATA[Verifying list before sorting [[[ChromeDriver: chrome on WINDOWS (dfd018e41a6b7176a755ff244a592273)] -> xpath: //h2[@class='product-title']], [[ChromeDriver: chrome on WINDOWS (dfd018e41a6b7176a755ff244a592273)] -> xpath: //h2[@class='product-title']], [[ChromeDriver: chrome on WINDOWS (dfd018e41a6b7176a755ff244a592273)] -> xpath: //h2[@class='product-title']]]]]>
+    </line>
+    <line>
+      <![CDATA[Get phone text[[ChromeDriver: chrome on WINDOWS (e8570e0caa7ee1f99499e88d687dd642)] -> xpath: //h1[contains(text(),'Cell phones')]]]]>
+    </line>
+    <line>
+      <![CDATA[Click on list [[ChromeDriver: chrome on WINDOWS (e8570e0caa7ee1f99499e88d687dd642)] -> xpath: //a[contains(text(),'List')]]]]>
+    </line>
+    <line>
+      <![CDATA[click on nokia lumia [[ChromeDriver: chrome on WINDOWS (e8570e0caa7ee1f99499e88d687dd642)] -> xpath: //h2/a[contains(text(),'Nokia Lumia 1020')]]]]>
+    </line>
+    <line>
+      <![CDATA[get nokia text]]>
+    </line>
+    <line>
+      <![CDATA[get price for nokia ]]>
+    </line>
+    <line>
+      <![CDATA[add to the cart]]>
+    </line>
+    <line>
+      <![CDATA[ Get add to cart msg[[ChromeDriver: chrome on WINDOWS (e8570e0caa7ee1f99499e88d687dd642)] -> xpath: //body/div[@id='bar-notification']/div[1]/p[1]]]]>
+    </line>
+    <line>
+      <![CDATA[shopping cart message Shopping cart]]>
+    </line>
+    <line>
+      <![CDATA[Update Qty msg[[ChromeDriver: chrome on WINDOWS (e8570e0caa7ee1f99499e88d687dd642)] -> xpath: //span[contains(text(),'(2)')]]]]>
+    </line>
+    <line>
+      <![CDATA[verified total$698.00]]>
+    </line>
+    <line>
+      <![CDATA[Click on checkbox[[ChromeDriver: chrome on WINDOWS (e8570e0caa7ee1f99499e88d687dd642)] -> xpath: //input[@id='termsofservice']]]]>
+    </line>
+    <line>
+      <![CDATA[Click Checkoutbox By.xpath: //button[@id='checkout']]]>
+    </line>
+    <line>
+      <![CDATA[verify welcome textWelcome, Please Sign In!]]>
+    </line>
+    <line>
+      <![CDATA[Click on Register [[ChromeDriver: chrome on WINDOWS (e8570e0caa7ee1f99499e88d687dd642)] -> xpath: //button[contains(text(),'Register')]]]]>
+    </line>
+    <line>
+      <![CDATA[verify Register textRegister]]>
+    </line>
+    <line>
+      <![CDATA[Get phone text[[ChromeDriver: chrome on WINDOWS (7a81d847724cfa7eab2e4a5b91bb7464)] -> xpath: //h1[contains(text(),'Cell phones')]]]]>
+    </line>
+    <line>
+      <![CDATA[click on computer Computers]]>
+    </line>
+    <line>
+      <![CDATA[click on computer Desktops]]>
+    </line>
+    <line>
+      <![CDATA[sort computerdesktops to AtoZPosition
+Name: A to Z
+Name: Z to A
+Price: Low to High
+Price: High to Low
+Created on]]>
+    </line>
+    <line>
+      <![CDATA[click on shopping cartADD TO CART]]>
+    </line>
+    <line>
+      <![CDATA[click on login tabLog in]]>
+    </line>
+    <line>
+      <![CDATA[enter email idprime123@gmail.com]]>
+    </line>
+    <line>
+      <![CDATA[enter password prime123]]>
+    </line>
+    <line>
+      <![CDATA[click on login tabLog in]]>
+    </line>
+  </reporter-output>
+  <suite name="Regression suite" duration-ms="81184" started-at="2022-12-13T21:17:18 GMT" finished-at="2022-12-13T21:18:39 GMT">
+    <groups>
+      <group name="regression">
+        <method signature="ComputerPageTest.verifyProductArrangeInAlphaBaticalOrder()[pri:0, instance:com.nopcommece.testsuite.ComputerPageTest@67b467e9]" name="verifyProductArrangeInAlphaBaticalOrder" class="com.nopcommece.testsuite.ComputerPageTest"/>
+        <method signature="ElectronicsPageTest.TheProductAddedSuccessfullyAndPlaceOrderSuccessfully()[pri:0, instance:com.nopcommece.testsuite.ElectronicsPageTest@587c290d]" name="TheProductAddedSuccessfullyAndPlaceOrderSuccessfully" class="com.nopcommece.testsuite.ElectronicsPageTest"/>
+        <method signature="ElectronicsPageTest.verifyUserShouldNavigateToCellPhonesPageSuccessfully()[pri:0, instance:com.nopcommece.testsuite.ElectronicsPageTest@587c290d]" name="verifyUserShouldNavigateToCellPhonesPageSuccessfully" class="com.nopcommece.testsuite.ElectronicsPageTest"/>
+        <method signature="HomePageTest.verifyPageNavigation()[pri:0, instance:com.nopcommece.testsuite.HomePageTest@4516af24]" name="verifyPageNavigation" class="com.nopcommece.testsuite.HomePageTest"/>
+        <method signature="LoginPageTest.verifyErrorMessageWithInvalidCredentials()[pri:0, instance:com.nopcommece.testsuite.LoginPageTest@6d3af739]" name="verifyErrorMessageWithInvalidCredentials" class="com.nopcommece.testsuite.LoginPageTest"/>
+        <method signature="LoginPageTest.verifyUserShouldNavigateToLoginPage()[pri:0, instance:com.nopcommece.testsuite.LoginPageTest@6d3af739]" name="verifyUserShouldNavigateToLoginPage" class="com.nopcommece.testsuite.LoginPageTest"/>
+        <method signature="ShoppingCartPageTest.verifyProductAddedToShoppingCartSuccessFully()[pri:0, instance:com.nopcommece.testsuite.ShoppingCartPageTest@4ae82894]" name="verifyProductAddedToShoppingCartSuccessFully" class="com.nopcommece.testsuite.ShoppingCartPageTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="ElectronicsPageTest.TheProductAddedSuccessfullyAndPlaceOrderSuccessfully()[pri:0, instance:com.nopcommece.testsuite.ElectronicsPageTest@587c290d]" name="TheProductAddedSuccessfullyAndPlaceOrderSuccessfully" class="com.nopcommece.testsuite.ElectronicsPageTest"/>
+        <method signature="LoginPageTest.verifyErrorMessageWithInvalidCredentials()[pri:0, instance:com.nopcommece.testsuite.LoginPageTest@6d3af739]" name="verifyErrorMessageWithInvalidCredentials" class="com.nopcommece.testsuite.LoginPageTest"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="ComputerPageTest.verifyProductArrangeInAlphaBaticalOrder()[pri:0, instance:com.nopcommece.testsuite.ComputerPageTest@67b467e9]" name="verifyProductArrangeInAlphaBaticalOrder" class="com.nopcommece.testsuite.ComputerPageTest"/>
+        <method signature="ElectronicsPageTest.verifyUserShouldNavigateToCellPhonesPageSuccessfully()[pri:0, instance:com.nopcommece.testsuite.ElectronicsPageTest@587c290d]" name="verifyUserShouldNavigateToCellPhonesPageSuccessfully" class="com.nopcommece.testsuite.ElectronicsPageTest"/>
+        <method signature="HomePageTest.verifyPageNavigation()[pri:0, instance:com.nopcommece.testsuite.HomePageTest@4516af24]" name="verifyPageNavigation" class="com.nopcommece.testsuite.HomePageTest"/>
+        <method signature="LoginPageTest.verifyUserShouldNavigateToLoginPage()[pri:0, instance:com.nopcommece.testsuite.LoginPageTest@6d3af739]" name="verifyUserShouldNavigateToLoginPage" class="com.nopcommece.testsuite.LoginPageTest"/>
+        <method signature="ShoppingCartPageTest.verifyProductAddedToShoppingCartSuccessFully()[pri:0, instance:com.nopcommece.testsuite.ShoppingCartPageTest@4ae82894]" name="verifyProductAddedToShoppingCartSuccessFully" class="com.nopcommece.testsuite.ShoppingCartPageTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Regression Test" duration-ms="81184" started-at="2022-12-13T21:17:18 GMT" finished-at="2022-12-13T21:18:39 GMT">
+      <class name="com.nopcommece.testsuite.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.nopcommece.testsuite.HomePageTest@4516af24]" name="setUp" is-config="true" duration-ms="2930" started-at="2022-12-13T21:18:00 GMT" finished-at="2022-12-13T21:18:03 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.nopcommece.testsuite.HomePageTest@4516af24]" name="inIt" is-config="true" duration-ms="4" started-at="2022-12-13T21:18:03 GMT" finished-at="2022-12-13T21:18:03 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="verifyPageNavigation()[pri:0, instance:com.nopcommece.testsuite.HomePageTest@4516af24]" name="verifyPageNavigation" duration-ms="1077" started-at="2022-12-13T21:18:03 GMT" finished-at="2022-12-13T21:18:04 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageNavigation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nopcommece.testsuite.HomePageTest@4516af24]" name="tearDown" is-config="true" duration-ms="810" started-at="2022-12-13T21:18:04 GMT" finished-at="2022-12-13T21:18:05 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nopcommece.testsuite.HomePageTest -->
+      <class name="com.nopcommece.testsuite.ElectronicsPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.nopcommece.testsuite.ElectronicsPageTest@587c290d]" name="setUp" is-config="true" duration-ms="2641" started-at="2022-12-13T21:17:28 GMT" finished-at="2022-12-13T21:17:30 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.nopcommece.testsuite.ElectronicsPageTest@587c290d]" name="inIt" is-config="true" duration-ms="7" started-at="2022-12-13T21:17:30 GMT" finished-at="2022-12-13T21:17:31 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="TheProductAddedSuccessfullyAndPlaceOrderSuccessfully()[pri:0, instance:com.nopcommece.testsuite.ElectronicsPageTest@587c290d]" name="TheProductAddedSuccessfullyAndPlaceOrderSuccessfully" duration-ms="22154" started-at="2022-12-13T21:17:31 GMT" finished-at="2022-12-13T21:17:53 GMT">
+          <reporter-output>
+            <line>
+              <![CDATA[Get phone text[[ChromeDriver: chrome on WINDOWS (e8570e0caa7ee1f99499e88d687dd642)] -> xpath: //h1[contains(text(),'Cell phones')]]]]>
+            </line>
+            <line>
+              <![CDATA[Click on list [[ChromeDriver: chrome on WINDOWS (e8570e0caa7ee1f99499e88d687dd642)] -> xpath: //a[contains(text(),'List')]]]]>
+            </line>
+            <line>
+              <![CDATA[click on nokia lumia [[ChromeDriver: chrome on WINDOWS (e8570e0caa7ee1f99499e88d687dd642)] -> xpath: //h2/a[contains(text(),'Nokia Lumia 1020')]]]]>
+            </line>
+            <line>
+              <![CDATA[get nokia text]]>
+            </line>
+            <line>
+              <![CDATA[get price for nokia ]]>
+            </line>
+            <line>
+              <![CDATA[add to the cart]]>
+            </line>
+            <line>
+              <![CDATA[ Get add to cart msg[[ChromeDriver: chrome on WINDOWS (e8570e0caa7ee1f99499e88d687dd642)] -> xpath: //body/div[@id='bar-notification']/div[1]/p[1]]]]>
+            </line>
+            <line>
+              <![CDATA[shopping cart message Shopping cart]]>
+            </line>
+            <line>
+              <![CDATA[Update Qty msg[[ChromeDriver: chrome on WINDOWS (e8570e0caa7ee1f99499e88d687dd642)] -> xpath: //span[contains(text(),'(2)')]]]]>
+            </line>
+            <line>
+              <![CDATA[verified total$698.00]]>
+            </line>
+            <line>
+              <![CDATA[Click on checkbox[[ChromeDriver: chrome on WINDOWS (e8570e0caa7ee1f99499e88d687dd642)] -> xpath: //input[@id='termsofservice']]]]>
+            </line>
+            <line>
+              <![CDATA[Click Checkoutbox By.xpath: //button[@id='checkout']]]>
+            </line>
+            <line>
+              <![CDATA[verify welcome textWelcome, Please Sign In!]]>
+            </line>
+            <line>
+              <![CDATA[Click on Register [[ChromeDriver: chrome on WINDOWS (e8570e0caa7ee1f99499e88d687dd642)] -> xpath: //button[contains(text(),'Register')]]]]>
+            </line>
+            <line>
+              <![CDATA[verify Register textRegister]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TheProductAddedSuccessfullyAndPlaceOrderSuccessfully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nopcommece.testsuite.ElectronicsPageTest@587c290d]" name="tearDown" is-config="true" duration-ms="872" started-at="2022-12-13T21:17:53 GMT" finished-at="2022-12-13T21:17:54 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.nopcommece.testsuite.ElectronicsPageTest@587c290d]" name="setUp" is-config="true" duration-ms="2541" started-at="2022-12-13T21:17:54 GMT" finished-at="2022-12-13T21:17:56 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.nopcommece.testsuite.ElectronicsPageTest@587c290d]" name="inIt" is-config="true" duration-ms="2" started-at="2022-12-13T21:17:56 GMT" finished-at="2022-12-13T21:17:56 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="verifyUserShouldNavigateToCellPhonesPageSuccessfully()[pri:0, instance:com.nopcommece.testsuite.ElectronicsPageTest@587c290d]" name="verifyUserShouldNavigateToCellPhonesPageSuccessfully" duration-ms="2949" started-at="2022-12-13T21:17:56 GMT" finished-at="2022-12-13T21:17:59 GMT">
+          <reporter-output>
+            <line>
+              <![CDATA[Get phone text[[ChromeDriver: chrome on WINDOWS (7a81d847724cfa7eab2e4a5b91bb7464)] -> xpath: //h1[contains(text(),'Cell phones')]]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyUserShouldNavigateToCellPhonesPageSuccessfully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nopcommece.testsuite.ElectronicsPageTest@587c290d]" name="tearDown" is-config="true" duration-ms="810" started-at="2022-12-13T21:17:59 GMT" finished-at="2022-12-13T21:18:00 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nopcommece.testsuite.ElectronicsPageTest -->
+      <class name="com.nopcommece.testsuite.ShoppingCartPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.nopcommece.testsuite.ShoppingCartPageTest@4ae82894]" name="setUp" is-config="true" duration-ms="2891" started-at="2022-12-13T21:18:05 GMT" finished-at="2022-12-13T21:18:08 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIT()[pri:0, instance:com.nopcommece.testsuite.ShoppingCartPageTest@4ae82894]" name="inIT" is-config="true" duration-ms="3" started-at="2022-12-13T21:18:08 GMT" finished-at="2022-12-13T21:18:08 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIT -->
+        <test-method status="PASS" signature="verifyProductAddedToShoppingCartSuccessFully()[pri:0, instance:com.nopcommece.testsuite.ShoppingCartPageTest@4ae82894]" name="verifyProductAddedToShoppingCartSuccessFully" duration-ms="20909" started-at="2022-12-13T21:18:08 GMT" finished-at="2022-12-13T21:18:28 GMT">
+          <reporter-output>
+            <line>
+              <![CDATA[click on computer Computers]]>
+            </line>
+            <line>
+              <![CDATA[click on computer Desktops]]>
+            </line>
+            <line>
+              <![CDATA[sort computerdesktops to AtoZPosition
+Name: A to Z
+Name: Z to A
+Price: Low to High
+Price: High to Low
+Created on]]>
+            </line>
+            <line>
+              <![CDATA[click on shopping cartADD TO CART]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyProductAddedToShoppingCartSuccessFully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nopcommece.testsuite.ShoppingCartPageTest@4ae82894]" name="tearDown" is-config="true" duration-ms="837" started-at="2022-12-13T21:18:28 GMT" finished-at="2022-12-13T21:18:29 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nopcommece.testsuite.ShoppingCartPageTest -->
+      <class name="com.nopcommece.testsuite.ComputerPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.nopcommece.testsuite.ComputerPageTest@67b467e9]" name="setUp" is-config="true" duration-ms="6428" started-at="2022-12-13T21:17:19 GMT" finished-at="2022-12-13T21:17:25 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIT()[pri:0, instance:com.nopcommece.testsuite.ComputerPageTest@67b467e9]" name="inIT" is-config="true" duration-ms="70" started-at="2022-12-13T21:17:25 GMT" finished-at="2022-12-13T21:17:25 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIT -->
+        <test-method status="PASS" signature="verifyProductArrangeInAlphaBaticalOrder()[pri:0, instance:com.nopcommece.testsuite.ComputerPageTest@67b467e9]" name="verifyProductArrangeInAlphaBaticalOrder" duration-ms="1845" started-at="2022-12-13T21:17:25 GMT" finished-at="2022-12-13T21:17:27 GMT">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicking on computer Computers then desktop ]]>
+            </line>
+            <line>
+              <![CDATA[Sorting computer desktops Position
+Name: A to Z
+Name: Z to A
+Price: Low to High
+Price: High to Low
+Created on]]>
+            </line>
+            <line>
+              <![CDATA[Verifying list after sorting [[[ChromeDriver: chrome on WINDOWS (dfd018e41a6b7176a755ff244a592273)] -> xpath: //h2[@class='product-title']], [[ChromeDriver: chrome on WINDOWS (dfd018e41a6b7176a755ff244a592273)] -> xpath: //h2[@class='product-title']], [[ChromeDriver: chrome on WINDOWS (dfd018e41a6b7176a755ff244a592273)] -> xpath: //h2[@class='product-title']]]]]>
+            </line>
+            <line>
+              <![CDATA[Verifying list before sorting [[[ChromeDriver: chrome on WINDOWS (dfd018e41a6b7176a755ff244a592273)] -> xpath: //h2[@class='product-title']], [[ChromeDriver: chrome on WINDOWS (dfd018e41a6b7176a755ff244a592273)] -> xpath: //h2[@class='product-title']], [[ChromeDriver: chrome on WINDOWS (dfd018e41a6b7176a755ff244a592273)] -> xpath: //h2[@class='product-title']]]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyProductArrangeInAlphaBaticalOrder -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nopcommece.testsuite.ComputerPageTest@67b467e9]" name="tearDown" is-config="true" duration-ms="818" started-at="2022-12-13T21:17:27 GMT" finished-at="2022-12-13T21:17:28 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nopcommece.testsuite.ComputerPageTest -->
+      <class name="com.nopcommece.testsuite.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.nopcommece.testsuite.LoginPageTest@6d3af739]" name="setUp" is-config="true" duration-ms="2870" started-at="2022-12-13T21:18:29 GMT" finished-at="2022-12-13T21:18:32 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.nopcommece.testsuite.LoginPageTest@6d3af739]" name="inIt" is-config="true" duration-ms="9" started-at="2022-12-13T21:18:32 GMT" finished-at="2022-12-13T21:18:32 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="verifyErrorMessageWithInvalidCredentials()[pri:0, instance:com.nopcommece.testsuite.LoginPageTest@6d3af739]" name="verifyErrorMessageWithInvalidCredentials" duration-ms="1751" started-at="2022-12-13T21:18:32 GMT" finished-at="2022-12-13T21:18:34 GMT">
+          <reporter-output>
+            <line>
+              <![CDATA[click on login tabLog in]]>
+            </line>
+            <line>
+              <![CDATA[enter email idprime123@gmail.com]]>
+            </line>
+            <line>
+              <![CDATA[enter password prime123]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyErrorMessageWithInvalidCredentials -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nopcommece.testsuite.LoginPageTest@6d3af739]" name="tearDown" is-config="true" duration-ms="793" started-at="2022-12-13T21:18:34 GMT" finished-at="2022-12-13T21:18:35 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.nopcommece.testsuite.LoginPageTest@6d3af739]" name="setUp" is-config="true" duration-ms="2922" started-at="2022-12-13T21:18:35 GMT" finished-at="2022-12-13T21:18:38 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.nopcommece.testsuite.LoginPageTest@6d3af739]" name="inIt" is-config="true" duration-ms="0" started-at="2022-12-13T21:18:38 GMT" finished-at="2022-12-13T21:18:38 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="verifyUserShouldNavigateToLoginPage()[pri:0, instance:com.nopcommece.testsuite.LoginPageTest@6d3af739]" name="verifyUserShouldNavigateToLoginPage" duration-ms="663" started-at="2022-12-13T21:18:38 GMT" finished-at="2022-12-13T21:18:38 GMT">
+          <reporter-output>
+            <line>
+              <![CDATA[click on login tabLog in]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyUserShouldNavigateToLoginPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nopcommece.testsuite.LoginPageTest@6d3af739]" name="tearDown" is-config="true" duration-ms="794" started-at="2022-12-13T21:18:38 GMT" finished-at="2022-12-13T21:18:39 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nopcommece.testsuite.LoginPageTest -->
+    </test> <!-- Regression Test -->
+  </suite> <!-- Regression suite -->
+</testng-results>
